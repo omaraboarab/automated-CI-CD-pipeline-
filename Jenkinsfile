@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         DOCKER_CREDENTIALS_ID = 'docker_credentials'
-        DOCKER_IMAGE_NAME = 'shazly3/webapp'
+        DOCKER_IMAGE_NAME = 'omaraboarab/project'
         
     }
     stages {
