@@ -1,6 +1,6 @@
 #local
 my_ip = "0.0.0.0/0"
-public_key_location = "/home/elshazly/.ssh/id_rsa.pub"
+public_key_location = "~/.ssh/id_rsa.pub"
 
 
 
