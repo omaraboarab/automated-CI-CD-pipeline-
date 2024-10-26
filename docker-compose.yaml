@@ -1,7 +1,7 @@
 version: '3'
 services:
   my-app:
-    image: shazly3/webapp:latest
+    image: omaraboarab/project:1.0
     ports:
       - 3000:3000
     depends_on:
@@ -28,7 +28,7 @@ services:
       - ME_CONFIG_MONGODB_SERVER=mongodb
     depends_on:
       - mongodb
- 
+
   db-setup:
     image: omaraboarab/setup-db:2.0
     depends_on:
