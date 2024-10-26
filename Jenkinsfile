@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git url: 'https://github.com/shazly3/depi_final_project.git', branch: 'main'
+                git url: 'https://github.com/omaraboarab/automated-CI-CD-pipeline-.git', branch: 'main'
             }
         }
         stage('Build Docker Image') {
